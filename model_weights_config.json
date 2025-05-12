@@ -1,5 +1,5 @@
 {
   "svd-test-inference": {
-    "model_weights_file": "svd-prototype-model/model_2025-05-09.pkl"
+    "model_weights_file": "svd-prototype-model/model_2025-05-10.pkl"
   }
 }
