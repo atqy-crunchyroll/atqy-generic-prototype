@@ -1,0 +1,12 @@
+name: Pulumi Deployment
+on:
+  push:
+    branches:
+      - corp-prototype-dev
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -i -XPOST -H "Content-Type: application/json" -H "Authorization: token ${{ secrets.PULUMI_ACCESS_TOKEN }}" --location "https://api.pulumi.com/api/stacks/crunchyroll/cr-atqy-codemob-prototype/dev/deployments" -d '{"operation": "update"}'
+
