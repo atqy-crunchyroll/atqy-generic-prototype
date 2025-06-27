@@ -1,0 +1,10 @@
+{
+  "FakeRankerModel": {
+    "new": {
+      "imageUri": "490645551402.dkr.ecr.us-west-2.amazonaws.com/cr-atqy-ecr-repository-sbx:test-svd-b1471038e4e1b63931fc95c6dbd5aee00394ba7f",
+      "modelWeightsFile": "test/series_completed_two_tower/model_2025-06-27",
+      "initialInstanceCount": 1,
+      "instanceType": "ml.g4dn.xlarge"
+    }
+  }
+}
